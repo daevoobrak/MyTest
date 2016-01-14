@@ -1,0 +1,26 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: blog_final
+  pool: 5
+  username: root
+  password: root
+qa:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: pt4qa
+  pool: 5
+  username: pt4qa
+  password: pt4qaPass
+  host: qa-purpletrail.c5tqrrh5y5xx.us-east-1.rds.amazonaws.com
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: pt4prod
+  pool: 5
+  username: pt4prod
+  password: pt4prodPass
+  host: purpletrailnew.c5tqrrh5y5xx.us-east-1.rds.amazonaws.com

@@ -1,0 +1,2 @@
+$("#new_article_modal").modal('show');
+$("#new_article_modal .modal-body").html("<%= j(render :partial => '/articles/form', :@article => @article)%>");
